@@ -1,0 +1,93 @@
+.custom-navbar {
+
+    background-color: #3b1769;
+
+    padding: 1rem 2rem;
+
+}
+
+.navbar-title {
+
+    font-size: 1.5rem;
+
+    font-weight: bold;
+
+    color: white;
+
+}
+
+.nav-link {
+
+    font-size: 1.1rem;
+
+    transition: all 0.3s ease;
+
+    border-radius: 8px;
+
+}
+
+.nav-link:hover {
+
+    background-color: rgba(185, 156, 214, 0.2);
+
+}
+
+body {
+
+    padding-top: 70px;
+
+}
+
+main {
+
+    overflow-y: auto;
+
+}
+
+footer {
+
+    padding: 0.5rem 1rem;
+
+    height: 60px;
+
+}
+
+section {
+
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+    border-radius: 8px;
+
+}
+
+.text-center {
+
+    text-align: center;
+
+}
+
+.text-white {
+
+    color: white;
+
+}
+
+#secao-html {
+
+    background-color: #f06529;
+
+}
+
+#secao-css {
+
+    background-color: #2965f1;
+
+}
+
+#secao-js {
+
+    background-color: #f7df1e;
+
+    margin-bottom: 20px;
+
+}

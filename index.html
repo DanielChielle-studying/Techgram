@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="img/icon.ico">
+
+    <title>Techgram</title>
+</head>
+
+<body>
+    <header class="custom-navbar fixed-top">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="navbar-title">Techgram</div>
+
+            <nav class="nav justify-content-center">
+                <a class="nav-link text-white" href="#secao-html">HTML</a>
+                <a class="nav-link text-white" href="#secao-css">CSS</a>
+                <a class="nav-link text-white" href="#secao-js">JavaScript</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <section id="secao-html" class="text-white p-5 mb-4">
+            <h2 class="text-center section-title">HTML - Estrutura da Web</h2>
+
+            <p class="text-center section-text">
+                O HTML (HyperText Markup Language) é a linguagem de marcação padrão para criar páginas web.
+                Ele fornece a estrutura básica de uma página, permitindo a inclusão de elementos como cabeçalhos,
+                parágrafos, imagens, links e outros tipos de conteúdo. O HTML é o alicerce de qualquer site,
+                organizando a disposição dos elementos que o usuário vê e interage.
+            </p>
+
+        </section>
+
+        <section id="secao-css" class="text-white p-5 mb-4">
+            <h2 class="text-center section-title">CSS - Estilos e Design</h2>
+
+            <p class="text-center section-text">
+                O CSS (Cascading Style Sheets) é utilizado para definir o estilo visual de uma página web.
+                Ele permite controlar cores, fontes, margens, espaçamentos e o layout dos elementos.
+                Com o CSS, você pode transformar um simples documento HTML em uma página atraente e interativa,
+                proporcionando uma melhor experiência para o usuário. Além disso, o CSS torna a página responsiva,
+                ajustando o layout conforme o tamanho da tela.
+            </p>
+        </section>
+
+        <section id="secao-js" class="p-5">
+            <h2 class="text-center section-title">JavaScript - Interatividade</h2>
+
+            <p class="text-center section-text">
+                O JavaScript é uma linguagem de programação que permite adicionar interatividade às páginas web.
+                Com ele, é possível criar elementos dinâmicos, como animações, validação de formulários, jogos e muito mais.
+                Ele roda diretamente no navegador, possibilitando a manipulação do HTML e CSS em tempo real,
+                além de interagir com APIs e servidores para criar experiências mais dinâmicas e interativas.
+            </p>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center p-4">
+        <p>&copy; <span id="anoAtual"></span> Techgram. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.getElementById("anoAtual").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
