@@ -26,7 +26,7 @@
     </header>
 
     <main class="container mt-5">
-        <section id="secao-html" class="text-white p-5 mb-4">
+        <section id="secao-html" class="text-white p-5 pb-3 mb-4">
             <h2 class="text-center section-title">HTML - Estrutura da Web</h2>
 
             <p class="text-center section-text">
@@ -36,9 +36,34 @@
                 organizando a disposição dos elementos que o usuário vê e interage.
             </p>
 
+            <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-secondary mt-3" data-bs-toggle="modal" data-bs-target="#htmlModal">
+                    Descubra o HTML
+                </button>
+            </div>
         </section>
 
-        <section id="secao-css" class="text-white p-5 mb-4">
+        <div class="modal fade" id="htmlModal" tabindex="-1" aria-labelledby="htmlModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="htmlModalLabel">HTML</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Tags, elementos, atributos: a base de tudo. Da estrutura básica à página completa, 
+                        organize seu conteúdo com clareza. Garanta acessibilidade e otimização para SEO com 
+                        semântica bem aplicada.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section id="secao-css" class="text-white p-5 pb-3 mb-4">
             <h2 class="text-center section-title">CSS - Estilos e Design</h2>
 
             <p class="text-center section-text">
@@ -48,18 +73,71 @@
                 proporcionando uma melhor experiência para o usuário. Além disso, o CSS torna a página responsiva,
                 ajustando o layout conforme o tamanho da tela.
             </p>
+
+            <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-secondary mt-3" data-bs-toggle="modal" data-bs-target="#cssModal">
+                    Descubra o CSS
+                </button>
+            </div>
         </section>
 
-        <section id="secao-js" class="p-5">
+        <div class="modal fade" id="cssModal" tabindex="-1" aria-labelledby="cssModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="cssModalLabel">HTML</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Cores, fontes, layout: personalize sua página e transmita sua identidade. 
+                        Crie designs impactantes que se adaptam a qualquer tela, proporcionando uma 
+                        experiência visual incrível para seus visitantes.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section id="secao-js" class="p-5 pb-3">
             <h2 class="text-center section-title">JavaScript - Interatividade</h2>
 
             <p class="text-center section-text">
                 O JavaScript é uma linguagem de programação que permite adicionar interatividade às páginas web.
-                Com ele, é possível criar elementos dinâmicos, como animações, validação de formulários, jogos e muito mais.
+                Com ele, é possível criar elementos dinâmicos, como animações, validação de formulários, jogos e muito
+                mais.
                 Ele roda diretamente no navegador, possibilitando a manipulação do HTML e CSS em tempo real,
                 além de interagir com APIs e servidores para criar experiências mais dinâmicas e interativas.
             </p>
+
+            <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-secondary mt-3" data-bs-toggle="modal" data-bs-target="#jsModal">
+                    Descubra o JS
+                </button>
+            </div>
         </section>
+
+        <div class="modal fade" id="jsModal" tabindex="-1" aria-labelledby="jsModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="jsModalLabel">HTML</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Adicione dinamismo e interatividade à sua página, indo além do conteúdo estático. 
+                        Crie animações, validações de formulários, jogos e muito mais. Explore o potencial 
+                        ilimitado do JavaScript, do front-end ao back-end.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
 
     <footer class="bg-dark text-white text-center p-4">
@@ -72,4 +150,5 @@
         document.getElementById("anoAtual").textContent = new Date().getFullYear();
     </script>
 </body>
+
 </html>
